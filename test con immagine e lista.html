@@ -1,0 +1,279 @@
+<html>
+<head>
+    <title>Le Tre Caravelle</title>
+    <style>
+        /* Stile generale per il corpo */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background: url('') center/cover no-repeat;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .image-container{
+            filter: sepia(200%) hue-rotate(180deg) saturate(60%) ;
+            position: relative;
+            width: 50%;
+            max-width: 600px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover {
+            transform: scale(1.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Contenitore del menu */
+        .menu {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ffffff; /* Testo bianco */
+        }
+
+        /* Stile card per le pizze */
+        .pizza-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px; /* Meno spazio tra i riquadri */
+            padding: 20px;
+        }
+
+        .pizza-card {
+            background: rgba(135, 206, 235, 0.8); /* Azzurro chiaro semi-trasparente */
+            border-radius: 15px;
+            padding: 10px; /* Dimensione ridotta */
+            width: 170px; /* Ridotto per farne entrare di più */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            position: relative;
+        }
+
+        .pizza-card h3 {
+            margin-bottom: 8px;
+            font-size: 1.1em;
+            color: #ffffff; /* Testo bianco */
+        }
+
+        .pizza-card p {
+            font-size: 0.85em;
+            color: #ffffff; /* Testo bianco */
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>LE TRE CARAVELLE</strong></h1>
+
+    <div class="image-container">
+        <img src="https://www.gedistatic.it/content/gnn/img/lastampa/2022/12/01/145837816-c0b3a862-3685-4dec-aa59-c7bf452a8d3e.jpg"> 
+    </div>
+    <div class="menu-link">
+    <a href="#pizze-classiche">Pizze Classiche</a>
+</div>
+    <div class="white-background">
+        <section class="menu">
+        <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Pizzeria</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://bunny-wp-pullzone-7ckloq9aqo.b-cdn.net/wp-content/uploads/2021/05/ST-006-Campione_F-2560x2560.jpg');width 
+            background-size: cover;
+            background-position: center center;
+            color: #fff;
+            .menu-link a {
+    font-size: 2em; /* Grandezza del testo */
+    color: yellow; /* Colore del testo */
+    font-weight: bold; /* Testo in grassetto */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white; /* Contorno bianco */
+}
+        .menu-link a {
+    font-size: 1.5em; /* Cambia la grandezza del testo */
+    color: green; /* Cambia il colore del testo */
+    font-weight: bold;
+}
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .pizza-item {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+            border: 2px solid #27ae60;
+        }
+        .pizza-item img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .pizza-item img:hover {
+            transform: scale(1.1);
+        }
+        .pizza-item h2 {
+            color: #e74c3c;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        .pizza-item ul {
+            text-align: left;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        .pizza-item ul li {
+            font-size: 1.1em;
+            margin: 5px 0;
+            color: #34495e;
+        }
+        .pizza-item p {
+            font-weight: bold;
+            color: #34495e;
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+<body>
+<section class="menu" id="pizze-classiche">
+    <div class="menu">
+        <div class="pizza-item">
+            <img src="https://primochef.it/wp-content/uploads/2019/08/SH_pizza_fatta_in_casa-1200x800.jpg" alt="Pizza Margherita">
+            <h2>Pizza Margherita</h2>
+            <ul>
+                <li>Ingredienti: Pomodoro, Mozzarella, Basilico</li>
+                <li>Descrizione: Classica pizza napoletana con pomodoro fresco e mozzarella di bufala.</li>
+            </ul>
+            <p>€5,00</p>
+        </div>
+        <div class="pizza-item">
+            <img src="https://primochef.it/wp-content/uploads/2018/05/SH_pizza_capricciosa.jpg" alt="Pizza Capricciosa">
+            <h2>Pizza Capricciosa</h2>
+            <ul>
+                <li>Ingredienti: Pomodoro, Mozzarella, Prosciutto cotto, Funghi, Carciofi, Olive</li>
+                <li>Descrizione: Una pizza ricca con una combinazione di ingredienti saporiti.</li>
+            </ul>
+            <p>€8.00</p>
+        </div>  
+    <div class="pizza-item">
+        <img src="https://www.carolynscooking.com/wp-content/uploads/2024/02/Pizza-Diavola-7.jpg" alt="Pizza Diavola">
+        <h2>Pizza Diavola</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Salame Piccante</li>
+            <li>Descrizione: Una pizza dal sapore deciso con il gusto intenso del salame piccante.</li>
+        </ul>
+        <p>€7,00</p>
+    </div>    
+    <div class="pizza-item">
+        <img src="https://www.bofrost.it/on/demandware.static/-/Sites-IT-master-catalog/default/dw015c6355/images/15197_PIZZA_AI_4_FORMAGGI_R.jpg" alt="Pizza Quattro Formaggi">
+        <h2>Pizza Quattro Formaggi</h2>
+        <ul>
+            <li>Ingredienti: Mozzarella, Gorgonzola, Fontina, Parmigiano</li>
+            <li>Descrizione: Un'esplosione di sapore con quattro diversi tipi di formaggio fuso.</li>
+        </ul>
+        <p>€8,00</p>
+    </div>
+    <div class="menu">
+    <div class="pizza-item">
+        <img src="https://www.pizzikotto.it/hyve/image/7deedd02-ab6c-4eb5-a2cf-f209324f5ae5/web/0/0?resizeMode=Scale&code=TjJupy_IyNyS3TQ3V8xZPANEOqgbOZaVBzzmmMkTMpA=&v=638318514570920240">
+        <h2>Pizza Viennese</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Wurstel</li>
+            <li>Descrizione: Una pizza dal gusto semplice e amato da tutti, con wurstel croccanti.</li>
+        </ul>
+        <p>€6.50</p>
+    </div>
+    
+    <div class="pizza-item">
+        <img src="https://redketchup.it/wp-content/uploads/2024/03/pizza-con-prosciutto-e-funghi.webp" alt="Pizza Prosciutto e Funghi">
+        <h2>Pizza Prosciutto e Funghi</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Prosciutto, Funghi</li>
+            <li>Descrizione: Un classico della tradizione con la combinazione perfetta di prosciutto cotto e funghi.</li>
+        </ul>
+        <p>€7,50</p>
+    </div>
+    
+    <div class="pizza-item">
+        <img src="https://cdn.cook.stbm.it/thumbnails/ricette/144/144880/hd750x421.jpg" alt="Pizza Quattro Stagioni">
+        <h2>Pizza Quattro Stagioni</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Funghi, Prosciutto, Carciofi, Olive</li>
+            <li>Descrizione: Una pizza divisa in quattro parti, ognuna con ingredienti diversi che rappresentano le stagioni.</li>
+        </ul>
+        <p>€8,50</p>
+    </div>
+    
+    <div class="pizza-item">
+        <img src="https://club.tescomaonline.com/wp-content/uploads/2017/09/pizza-patatine.jpg" alt="Pizza Americana">
+        <h2>Pizza Americana</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Salsiccia, Patatine</li>
+            <li>Descrizione: Perfetta per chi ama i sapori decisi, con salsiccia e croccanti patatine fritte.</li>
+        </ul>
+        <p>€7,50</p>
+    </div>  
+    <div class="pizza-item">
+        <img src="https://www.oxoitalia.com/wp-content/uploads/2020/01/Articolo-Pizza-1170x539.jpg" alt="Pizza Napoletana">
+        <h2>Pizza Napoletana</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Acciughe, Capperi</li>
+            <li>Descrizione: Il sapore autentico di Napoli, con acciughe e capperi che donano un gusto deciso.</li>
+        </ul>
+        <p>€7,50</p>
+    </div>
+    
+    <div class="pizza-item">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/18/a9/d8/09/pizza-siciliana.jpg" alt="Pizza Siciliana">
+        <h2>Pizza Siciliana</h2>
+        <ul>
+            <li>Ingredienti: Pomodoro, Mozzarella, Melanzane, Ricotta Salata</li>
+            <li>Descrizione: Un omaggio ai sapori della Sicilia, con melanzane grigliate e ricotta salata.</li>
+        </ul>
+        <p>€8.50</p>
+    </div>
+     <div class="menu-link">
+    <a href="#pizze-classiche">Pizze Classiche</a>
+</div>
+</div>
+</body>
+</html>
+                           
+          
